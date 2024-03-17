@@ -28,15 +28,15 @@ uma disciplina é ESTUDADA por um 'aluno',<br/>
 Restrição de disjunção: uma disciplina pode ser OBRIGATORIA ou ELETIVA<br/>
 <br/>
 ## Entidade extras:
-COORDENADOR:
-É inserido para ter uma relação de coordenar um ou mais 'professor', possui uma restrição de sobreposição em que o(a) coordenador(a) pode ser de diferentes períodos de ensino em um colégio.
-Gestor:
-É inserido para ter uma relação de gerenciar um ou mais coordenadores.
-AVALIACAO:
-É inserido para ter uma relação de ser realizada por um ou mais 'aluno' e corrigida por um ou mais "professor", possui uma restrição de disjunção em que pode ser do tipo ORAL ou ESCRITA.
-EXERCICIO_FISICO:
-É inserido para ter uma relação de ser praticada por um ou mais 'aluno' e ocorrida em um ou mais 'ambiente'.
-AULA:
-É inserido para ter uma relação de ser assistido por um ou mais 'aluno' e lecionado por um ou mais 'professor', possui uma restrição de disjunção em que pode ser do tipo EAD ou PRESENCIAL.
-AMBIENTE:
-É inserido para ser ocorrido um ou mais 'exercicio_fisico' e comparecida por um ou mais 'aluno', possui uma restrição de disjunção em que pode ser em diferentes localizações da escola (sala de aula, piscina, coordenação, quadra, biblioteca, campus, cantina)
+COORDENADOR:<br/>
+É inserido para ter uma relação de coordenar um ou mais 'professor', possui uma restrição de sobreposição em que o(a) coordenador(a) pode ser de diferentes períodos de ensino em um colégio.<br/>
+GESTORr:<br/>
+É inserido para ter uma relação de gerenciar um ou mais coordenadores.<br/>
+AVALIACAO:<br/>
+É inserido para ter uma relação de ser realizada por um ou mais 'aluno' e corrigida por um ou mais "professor", possui uma restrição de disjunção em que pode ser do tipo ORAL ou ESCRITA.<br/>
+EXERCICIO_FISICO:<br/>
+É inserido para ter uma relação de ser praticada por um ou mais 'aluno' e ocorrida em um ou mais 'ambiente'.<br/>
+AULA:<br/>
+É inserido para ter uma relação de ser assistido por um ou mais 'aluno' e lecionado por um ou mais 'professor', possui uma restrição de disjunção em que pode ser do tipo EAD ou PRESENCIAL.<br/>
+AMBIENTE:<br/>
+É inserido para ser ocorrido um ou mais 'exercicio_fisico' e comparecida por um ou mais 'aluno', possui uma restrição de disjunção em que pode ser em diferentes localizações da escola (sala de aula, piscina, coordenação, quadra, biblioteca, campus, cantina)<br/>
