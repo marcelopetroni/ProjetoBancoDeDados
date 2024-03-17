@@ -1,4 +1,4 @@
-# ProjetoBancoDeDados
+# Projeto banco de dados
 ### Primeiro projeto de banco de dados: modelo conceitual
 ### Aluno: Marcelo Nunes
 ![Captura de tela 2024-03-17 164410](https://github.com/marcelopetroni/ProjetoBancoDeDados/assets/105806830/b218bf22-5f6c-4c5c-b7c5-d0911ac81628)
