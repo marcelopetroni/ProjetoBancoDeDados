@@ -6,26 +6,26 @@
 
 ## Descrição do diagrama:
 
-ALUNO:
-um a N alunos ESTUDA 'Disciplina',\**
-um a N alunos COMPARECEM a um 'Ambiente' na escola,\**
-um a N alunos PRATICAM 'Exercicio_fisico',\**
-um aluno é REGISTRADO a uma 'Matricula',\**
-um a N alunos REALIZA uma 'Avaliacao',\**
+ALUNO:<br/>
+um a N alunos ESTUDA 'Disciplina',<br/>
+um a N alunos COMPARECEM a um 'Ambiente' na escola,
+um a N alunos PRATICAM 'Exercicio_fisico',
+um aluno é REGISTRADO a uma 'Matricula',
+um a N alunos REALIZA uma 'Avaliacao',
 
 MATRICULA:
-uma matricula é REGISTRADA a um 'Aluno',\**
+uma matricula é REGISTRADA a um 'Aluno',
 
 PROFESSOR:
-um a N professores LECIONA uma 'Aula',\**
-um a N professores CORRIGE a uma 'Avaliacao',\**
-um a N professores MINISTRA 'Disciplina',\**
-um a N professores são COORDENADOS por um 'coordenador'\**
+um a N professores LECIONA uma 'Aula',
+um a N professores CORRIGE a uma 'Avaliacao',
+um a N professores MINISTRA 'Disciplina',
+um a N professores são COORDENADOS por um 'coordenador'
 
 DISCIPLINA:
-uma disciplina é MINISTRADA por um 'professor',\**
-uma disciplina é ESTUDADA por um 'aluno',\**
-Restrição de disjunção: uma disciplina pode ser OBRIGATORIA ou ELETIVA\**
+uma disciplina é MINISTRADA por um 'professor',
+uma disciplina é ESTUDADA por um 'aluno',
+Restrição de disjunção: uma disciplina pode ser OBRIGATORIA ou ELETIVA
 
 ## Entidade extras:
 COORDENADOR:
