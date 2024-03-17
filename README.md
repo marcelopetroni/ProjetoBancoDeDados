@@ -16,7 +16,7 @@ um a N alunos REALIZA uma 'Avaliacao',<br/>
 MATRICULA:<br/>
 uma matricula é REGISTRADA a um 'Aluno',<br/>
 <br/>
-PROFESSOR:
+PROFESSOR:<br/>
 um a N professores LECIONA uma 'Aula',<br/>
 um a N professores CORRIGE a uma 'Avaliacao',<br/>
 um a N professores MINISTRA 'Disciplina',<br/>
