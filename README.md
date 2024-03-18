@@ -30,13 +30,18 @@ Restrição de disjunção: uma disciplina pode ser OBRIGATORIA ou ELETIVA<br/>
 ## Entidade extras:
 COORDENADOR:<br/>
 É inserido para ter uma relação de coordenar um ou mais 'professor', possui uma restrição de sobreposição em que o(a) coordenador(a) pode ser de diferentes períodos de ensino em um colégio.<br/>
+<br/>
 GESTOR:<br/>
 É inserido para ter uma relação de gerenciar um ou mais coordenadores.<br/>
+<br/>
 AVALIACAO:<br/>
 É inserido para ter uma relação de ser realizada por um ou mais 'aluno' e corrigida por um ou mais "professor", possui uma restrição de disjunção em que pode ser do tipo ORAL ou ESCRITA.<br/>
+<br/>
 EXERCICIO_FISICO:<br/>
 É inserido para ter uma relação de ser praticada por um ou mais 'aluno' e ocorrida em um ou mais 'ambiente'.<br/>
+<br/>
 AULA:<br/>
 É inserido para ter uma relação de ser assistido por um ou mais 'aluno' e lecionado por um ou mais 'professor', possui uma restrição de disjunção em que pode ser do tipo EAD ou PRESENCIAL.<br/>
+<br/>
 AMBIENTE:<br/>
 É inserido para ser ocorrido um ou mais 'exercicio_fisico' e comparecida por um ou mais 'aluno', possui uma restrição de disjunção em que pode ser em diferentes localizações da escola (sala de aula, piscina, coordenação, quadra, biblioteca, campus, cantina)<br/>
